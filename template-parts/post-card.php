@@ -1,0 +1,1 @@
+<article <?php post_class( 'fsw-post-card' ); ?>><p class="fsw-meta"><?php echo esc_html( get_the_date() ); ?></p><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2><?php if ( has_excerpt() ) : ?><p><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?></article>
